@@ -2,19 +2,7 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 import random
-#import tensorflow as tf
 
-MODEL_PATH = 'vehicle_model.h5'
-
-# Use st.cache_resource to load the model once
-'''@st.cache_resource
-def get_model():
-   
-    model = tf.keras.models.load_model(MODEL_PATH)
-    return model
-
-# Load the model
-model = get_model()'''
 
 # Page configuration
 st.set_page_config(
